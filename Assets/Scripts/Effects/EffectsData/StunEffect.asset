@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dda3c023f55cd448831cb379806844a, type: 3}
+  m_Name: StunEffect
+  m_EditorClassIdentifier: 
+  effectName: "\u041E\u0433\u043B\u0443\u0448\u0435\u043D\u0438\u0435"
+  icon: {fileID: 359855251, guid: e58b400055cea0748a44f86ba94b52d0, type: 3}
+  baseDuration: 3
+  isStackable: 1
+  maxStacks: 1
+  isDebuff: 1

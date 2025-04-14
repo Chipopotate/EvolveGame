@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6044875169618837752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3790112785890340544}
+  - component: {fileID: 4263388981032008749}
+  m_Layer: 0
+  m_Name: TeamController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3790112785890340544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044875169618837752}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4263388981032008749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044875169618837752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f14994a4053b284da9d2271a1d1297d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 1
+  allUnits: []
+  monsterTeam: []
+  hunterTeam: []
+  neutralTeam:
+  - {fileID: -495997251243125161, guid: 8811a8078ed45c842a96210c6ba888f2, type: 3}
+  - {fileID: 8300635817241785925, guid: 9be9985b07fa6c4429e1f0e19789b151, type: 3}
+  - {fileID: 6190717277854381540, guid: 6c54094aee3d31d4290cdce1ffa3a5e2, type: 3}
+  corpse:
+  - {fileID: 5588320805938239875, guid: c6d53d302449ec54dbd0b7ac360dc4fc, type: 3}
+  - {fileID: 2806479694679717805, guid: 6c7940967b3d1d14a8a81c7ee8d5c17b, type: 3}
+  - {fileID: 3044388127983463292, guid: 5beb515885d617e4da050403ac834fb9, type: 3}
+  - {fileID: 7006553694212117371, guid: 2c486768dfa49da418fd3e1304c91d45, type: 3}

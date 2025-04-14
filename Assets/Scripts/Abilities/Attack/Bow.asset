@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b3b6e04e7c7b440b34996d9a4b4129, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  abilityName: "\u041B\u0443\u043A"
+  range: 7
+  staminaCost: 1
+  icon: {fileID: 347405452, guid: 632dfffdd8af62f4daf59ed9c76e1d53, type: 3}
+  damage: 5
